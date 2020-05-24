@@ -1,0 +1,484 @@
+html * {
+  font-family: Lato, Lato, sans-serif;
+}
+
+.App {
+  background-color: white;
+  height: auto;
+  min-height: 90vh;
+}
+
+.router {
+  padding-top: 6vw;
+}
+
+body {
+  clear: both;
+}
+
+.App-header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-color: lightblue;
+  min-height: 6vw;
+  font-size: calc(10px + 1vmin);
+  color: black;
+  padding-bottom: 2.5vw;
+}
+
+.user {
+  text-align: left;
+}
+
+.logout {
+  float: right;
+}
+
+.tabs-header {
+  margin-top: 5vh;
+  overflow: hidden;
+  border-spacing: 10px;
+  border: black;
+}
+
+.tab-header {
+  height: 30px;
+  background-color: white;
+  border: none;
+  float: left;
+  outline: none;
+  cursor: default;
+  background-clip: content-box;
+  transition: 0.3s;
+  font-size: calc(10px + 1vmin);
+  margin-left: 0.5vh;
+  margin-right: 0.5vh;
+}
+
+.clientHeader {
+  margin-top: 5vh;
+  position: fixed;
+  left: 0;
+  right: 0;
+  background-color: white;
+}
+
+.searchingHeader {
+  width: 100%;
+  height: 15vh;
+}
+
+.searchingHeader #inputType {
+  margin-left: 10vh;
+}
+
+.searchingHeader #inputField {
+  margin-left: 10vh;
+}
+
+.searchingHeader #inputBtn {
+  margin-left: 10vh;
+  margin-top: 2vh;
+}
+
+.searchingHeader #inputTxt {
+  color: gray;
+  margin-left: 2vh;
+}
+
+.tabs-clientHeader {
+  padding-top: 2vh;
+  padding-bottom: 1vh;
+  overflow: hidden;
+  border-spacing: 10px;
+  border: #f1f1f1;
+  background-color: lightblue;
+  clear: both;
+  display: inline-block;
+  width: 100%;
+}
+
+.tab-clientHeader {
+  height: 30px;
+  margin-bottom: 2vh;
+  background-color: white;
+  border: none;
+  float: left;
+  outline: none;
+  cursor: default;
+  background-clip: content-box;
+  transition: 0.3s;
+  font-size: calc(10px + 1vmin);
+  margin-left: 0.5vh;
+  margin-right: 0.5vh;
+}
+
+.active {
+  color: darkgrey;
+  border-style: solid;
+}
+
+#logo {
+  height: 100%;
+  float: left;
+}
+
+.clientMain {
+  margin-left: 5vh;
+  padding-top: 30vh;
+}
+
+@media (min-width: 1300px) {
+  .cardMain {
+    margin-top: 1vh;
+    margin-left: 5vh;
+    padding-top: 12%;
+    padding-bottom: 20%;
+  }
+}
+
+.clientMain > h3 {
+  text-align: center;
+}
+
+.serviceSubmitBtns {
+  clear: both;
+}
+
+.vals {
+  color: gray;
+}
+
+.col {
+  float: left;
+  width: 50%;
+  margin-bottom: 7vh;
+}
+
+.list {
+  text-align: center;
+  clear: both;
+  display: flex;
+  justify-content: center;
+}
+
+.list table {
+  text-align: left;
+}
+
+.list table th {
+  text-align: left;
+}
+
+.wrapList {
+  clear: both;
+  text-align: center;
+}
+
+.th {
+  text-align: center;
+  color: gray;
+  font-weight: bold;
+  font-size: 120%;
+  width: 13em;
+  border-bottom: solid;
+}
+
+.thShort {
+  text-align: center;
+  color: gray;
+  font-weight: bold;
+  font-size: 120%;
+  width: 8em;
+  border-bottom: solid;
+}
+
+.thImg {
+  width: 8em;
+}
+
+.imgFreeView {
+  width: 90%;
+}
+
+.thStatus {
+  text-align: center;
+  color: gray;
+  font-weight: bold;
+  font-size: 120%;
+  width: 30em;
+  border-bottom: solid;
+}
+
+.filter {
+  background-color: lightgray;
+}
+
+.formRight {
+  display: flex;
+  justify-content: right;
+}
+
+.filterBtnDiv {
+  display: flex;
+  justify-content: right;
+  margin-top: 2em;
+}
+
+#filterBtn {
+  font-size: 120%;
+}
+
+Thead {
+  font-size: 130%;
+}
+
+div.-sort-desc::after {
+  content: " \25BC";
+  float: right;
+}
+
+div.-sort-asc::after {
+  content: " \25B2";
+  float: right;
+}
+
+.ReactTable .rt-th  {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 0 0px;
+  flex: 1 0 0;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding: 7px 5px;
+  overflow: hidden;
+  transition: 0.3s ease;
+  transition-property: width, min-width, padding, opacity;
+  color: gray;
+  font-weight: bold;
+  font-size: 110%;
+}
+
+.ReactTable {
+  cursor: pointer;
+}
+
+.historyInfo {
+  border: solid;
+}
+
+.chargeForm {
+  margin-top: 5vh;
+  text-align: left;
+  margin-right: 50vh;
+  background-color: red;
+}
+
+.chargeInput {
+  margin-top: 2vh;
+}
+
+.col3 {
+  float: left;
+  width: 33%;
+}
+
+.col3 > p {
+  padding: 1em;
+  height: 1em;
+}
+
+.personalEdit {
+  margin-top: 3em;
+  width: 100%;
+}
+
+.insidePersonalEdit {
+  margin-left: 3em;
+  margin-top: 3em;
+}
+
+.registerEdit {
+  margin-top: 3em;
+  width: 100%;
+}
+
+.insideRegisterEdit {
+  margin-left: 3em;
+  margin-top: 3em;
+}
+
+#phoneNonActive {
+  visibility: visible;
+  background-color: red;
+  border-radius: 0.5em;
+  width: 20em;
+  text-align: center;
+}
+
+#phoneActive {
+  visibility: hidden;
+  background-color: green;
+  border-radius: 0.5em;
+  width: 20em;
+  text-align: center;
+}
+
+#emailNonActive {
+  visibility: visible;
+  background-color: red;
+  border-radius: 0.5em;
+  width: 20em;
+  text-align: center;
+}
+
+#emailActive {
+  visibility: hidden;
+  background-color: green;
+  border-radius: 0.5em;
+  width: 20em;
+  text-align: center;
+}
+
+#p1 {
+  font-size: 150%;
+  font-weight: bold;
+  margin-top: 15vh;
+}
+
+#p2 {
+  font-size: 150%;
+  font-weight: bold;
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5vh;
+}
+
+#p3 {
+  font-size: 170%;
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 4vh;
+}
+
+#p4 {
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10vh;
+}
+
+#formSubmitBtn {
+  margin-left: 30vh;
+}
+
+.invoiceBtns {
+  margin-top: 5vh;
+}
+
+.tab {
+  padding-top: 10vh;
+}
+
+.tab form {
+  margin-top: 5vh;
+  margin-left: 5vw;
+}
+
+.submitWrapper {
+  clear: left;
+  padding-top: 5vh;
+  margin-left: 30vw;
+}
+
+.col7 {
+  float: left;
+  margin-bottom: 7vh;
+  width: 14%;
+}
+
+.documentsTable {
+  clear: both;
+}
+
+.document {
+  background-color: white;
+  box-shadow: 10px 10px 12px 0px rgba(0,0,0,1);
+  margin: 5vh;
+  width: 90vw;
+}
+
+.documentRow {
+  border-bottom: solid;
+  display: flex;
+}
+
+.documentRow div {
+  margin: 2vh;
+}
+
+.documentRow textarea {
+  width: 80%;
+  clear: both;
+}
+
+.div4 {
+  float: left;
+  width: 25%;
+}
+
+.div2 {
+  float: left;
+  width: 70%;
+}
+
+.div2 p {
+  margin: 2px;
+}
+
+.documentCommemt {
+  border-bottom: solid;
+}
+
+.documentCommemt textarea {
+  width: 90%;
+  margin-left: 3vw;
+}
+
+#pagesSelector {
+  margin: 5vw;
+  text-align: center;
+}
+
+#transfersPagination {
+  margin: 5vw;
+  text-align: center;
+}
+
+#loginDiv {
+  width: 500px;
+  height: 200px;
+  margin: auto;
+  margin-top: 20vh;
+  background-color: lightblue;
+}
+
+#loginHeader {
+  height: 35%;
+  background-color: white;
+}
+
+#user, #password {
+  width: 90%;
+}
+
+#loginBtn {
+  text-align: center;
+}
+
+#loginBtn button {
+  margin-top: 20px;
+}
