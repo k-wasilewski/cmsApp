@@ -18,7 +18,7 @@
 ![alt text](https://raw.githubusercontent.com/k-wasilewski/cmsApp/master/screenshots/6rejestracja.png)
 
 #### 7 - Documents
-![alt text](https://raw.githubusercontent.com/k-wasilewski/shcmsAppop/master/screenshots/7dokumenty_paginacja.png)
+![alt text](https://raw.githubusercontent.com/k-wasilewski/cmsApp/master/screenshots/7dokumenty_paginacja.png)
 
 #### 8 - Files
 ![alt text](https://raw.githubusercontent.com/k-wasilewski/cmsApp/master/screenshots/8pliki.png)
